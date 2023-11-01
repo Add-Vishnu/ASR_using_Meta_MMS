@@ -15,5 +15,7 @@ tabbed_interface = gr.TabbedInterface([demo,demo2,demo3],["Transcribe by auto de
 
 with gr.Blocks() as asr:
     tabbed_interface.render()
-asr.queue(concurrency_count=3)
-asr.launch()
+
+if __name__ == "__main__":
+    asr.queue(concurrency_count=3)
+    asr.launch()
