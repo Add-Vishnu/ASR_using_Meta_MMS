@@ -18,6 +18,14 @@ source:
 pip install git+https://github.com/huggingface/transformers.git
 ```
 
+## Run  - app.py
+## or
+## Try using the notebook file 'Meta_mms_HF_interface.ipynb'
+
+
+
+
+
 
 we load the model and processor
 
