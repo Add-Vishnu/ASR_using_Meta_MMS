@@ -2,9 +2,14 @@
 
 First, we install transformers and some other libraries
 ```
-pip install torch accelerate torchaudio datasets
+pip install torch accelerate torchaudio datasets librosa
 pip install --upgrade transformers
 ````
+or run 
+```
+pip install -r requirements
+```
+
 
 **Note**: In order to use MMS you need to have at least `transformers >= 4.30` installed. If the `4.30` version
 is not yet available [on PyPI](https://pypi.org/project/transformers/) make sure to install `transformers` from 
