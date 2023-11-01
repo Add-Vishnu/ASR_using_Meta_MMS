@@ -19,7 +19,7 @@ pip install git+https://github.com/huggingface/transformers.git
 ```
 
 ## Run  - app.py
-## or
+or
 ## Try using the notebook file 'Meta_mms_HF_interface.ipynb'
 
 
