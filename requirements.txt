@@ -4,3 +4,4 @@ torchaudio
 datasets
 transformers
 librosa
+gradio
